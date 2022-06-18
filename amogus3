@@ -1,0 +1,14 @@
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+
+if (c < 3)
+{
+    var y = (3 * a) + (b / 2);
+    Console.WriteLine(y);
+}
+else if (c >= 3)
+{
+    var y = -a - 6 * b;
+    Console.WriteLine(y);
+}
