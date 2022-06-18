@@ -1,0 +1,14 @@
+Console.Write("Введите чило х: ");
+int x = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите чило y: ");
+int y = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Сложение: {x + y}");
+Console.WriteLine($"Вычитание: { x - y}");
+Console.WriteLine($"Умножение: {x * y}");
+if (y == 0)
+    Console.WriteLine("Ноль нельзя");
+else
+    Console.WriteLine($"Деление: {(float)x / (float)y}");
+
+
+
